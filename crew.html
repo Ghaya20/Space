@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="bg-[url('https://ik.imagekit.io/gaia/Space/background-crew-desktop.jpg?updatedAt=1722765995495')] h-screen font-[Rajdhani]">
+        <div class="2xl:container mx-auto">
+            <!-- 1st safe cont -->
+            <div class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2">
+                <!-- logo -->
+                <div class="flex flex-row justify-between my-6 ">
+                    <img src="https://ik.imagekit.io/gaia/Space/logo.svg?updatedAt=1722263099321" alt="logo" />
+                    <div class="md:hidden flex flex-row justify-center mb-3 items-end">
+                        <img src="https://ik.imagekit.io/gaia/Space/icon-hamburger.svg?updatedAt=1722263220619" alt="open" id="op"/>
+                        <img src="https://ik.imagekit.io/gaia/Space/icon-close.svg?updatedAt=1722263220330" alt="close" class="hidden" id="close" />
+                    </div>
+                </div>
+                <!-- nav bar -->
+                <div class="text-black bg-white hidden flex flex-col md:flex md:flex-row justify-end items-center md:text-white md:bg-transparent gap-5" id="nav">
+                    <a href="./index.html">
+                        <button class="font-normal hover:underline" id="home" ><span class="font-bold">00</span> HOME</button>
+                    </a>
+                    
+                    <a href="./destination.html" >
+                        <button class="font-normal hover:underline"><span class="font-bold">01</span> DESTINATION</button>
+                    </a>
+                    
+                    <a href="./crew.html">
+                        <button class="font-normal hover:underline"><span class="font-bold">02</span> CREW</button>
+                    </a>
+                    <a href="./tech.html">
+                        <button class="font-normal hover:underline"><span class="font-bold">03</span> TECHNOLOGY</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 2nd safe cont -->
+            <div class="w-[100%] md:w-[85%] mx-auto grid grid-cols-1">
+                <div class=" text-2xl space-y-1 flex text-white bg-transparent ml-9">
+                    <h1><span class="text-amber-700">02</span>  MEET YOUR CREW </h1>
+                </div>
+            </div>
+            <!-- 3rd safe cont -->
+            <div class="w-[98%] md:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 md:my-6">
+                <div class="text-white text-center space-x-4 w-auto md:w-[500px] md:text-start md:space-y-11 order-2 md:order-1">
+                    <br>
+                    <p class="text-xl md:text-4xl font-thin md:ml-3 flex flex-col justify-start" id="job" >FLIGHT ENGINEER</p>
+                    <h1 class="text-2xl md:text-8xl font-[Cinzel]" id="crew" > ANOUSHEH ANSARI</h1>
+                    <p class=" text-x flex flex-col justify-center items-center w-auto" id="name" >Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+                    <br>
+                    <div class="hidden md:flex justify-center gap-12 order-1">
+                        <button class="w-5 h-5 rounded-full bg-slate-500" id="fl" ></button>
+                        <button class="w-5 h-5 rounded-full bg-slate-500" id="com"></button>
+                        <button class="w-5 h-5 rounded-full bg-slate-500" id="pi"></button>
+                        <button class="w-5 h-5 rounded-full bg-slate-500" id="sp" ></button>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-3 md:flex  order-1 md:order-2">
+                    <img src="https://ik.imagekit.io/gaia/Space/image-anousheh-ansari.png?updatedAt=1722765995477" alt="ansari" class="h-[85%]" id="photo"/>
+                    <div class="md:hidden flex gap-5">
+                        <button class="w-3 h-3 rounded-full bg-slate-500" id="flight" ></button>
+                        <button class="w-3 h-3 rounded-full bg-slate-500" id="command" ></button>
+                        <button class="w-3 h-3 rounded-full bg-slate-500" id="pilot" ></button>
+                        <button class="w-3 h-3 rounded-full bg-slate-500" id="specialist" ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="md:hidden bg-[url('https://ik.imagekit.io/gaia/Space/background-destination-desktop.jpg?updatedAt=1722661188139')] h-auto">
+        <p class=" text-transparent text-center text-x flex flex-col justify-center items-center w-auto" id="name" >Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems.Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+    </section>
+    <script src="./script1.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
