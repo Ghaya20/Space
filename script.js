@@ -37,7 +37,7 @@ hom.addEventListener("click",()=>{
 mars.addEventListener("click",()=>{
     title.textContent = "MARS";
     des.textContent = "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!";
-    dist.textContent = "225 MIL";
+    dist.textContent = "225 MIL ";
     time.textContent=" 9 MONTHS";
     planet.src="https://ik.imagekit.io/gaia/Space/image-mars.png?updatedAt=1722696086618";
 })
